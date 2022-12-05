@@ -18,7 +18,6 @@ const App = () => {
   const getInfo = (data) => {
     setGatheredData(gatheredData = { ...data })
     setTypedEmail(fetchedData[fetchedData.indexOf(fetchedData.find(obj => { return gatheredData.email === obj.email }))].name)
-    console.log('This is the gathered data', gatheredData)
   }
 
   const handleLogout = () => {
