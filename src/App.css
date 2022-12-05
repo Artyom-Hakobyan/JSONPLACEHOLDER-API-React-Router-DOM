@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.LoggedState {
+  border-bottom: 3px solid rebeccapurple;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Welcome {
+  text-align: right;
+  margin-right: 13px;
+  font-size: 25px;
+}
+
+.LogoutButton {
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 17px 48px;
+  color: #fff;
+  background-color: #753e83;
+  height: 48px;
+  margin-top: 19px;
+}
+
+.LogoutButton:hover {
+  transform: scale(1.04);
+  background-color: #9a5ea0;
+}
+
+.LoginButton {
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 17px 48px;
+  color: #fff;
+  background-color: #219217;
+  height: 48px;
+  margin-top: 19px;
+  margin-left: 20px;
+}
+
+.LoginButton:hover {
+  transform: scale(1.04);
+  background-color: #5ab34e;
+}
+
+.InputArea {
+  width: 200px;
+  height: 40px;
+  
+}
